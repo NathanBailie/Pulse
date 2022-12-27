@@ -1,0 +1,28 @@
+'use strict'
+
+	; (function () {
+		let form = document.querySelector('.consultation__form');
+
+		let name = document.querySelector('.consultation__name');
+		let phone = document.querySelector('.consultation__phone');
+		let email = document.querySelector('.consultation__email');
+
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+			if (!/^[а-яё]|[a-z]|\s+$/.test(name.value)) {
+				alert('Поле "имя" заполнено некорректно');
+				return;
+			}
+
+			if (!/^\+?\d+$/.test(phone.value)) {
+				alert('Поле "телефон" заполнено некорректно');
+				return;
+			}
+			if (!/^[a-z\-\.]+@[a-z]+\.[a-z\-\.]+$/.test(email.value)) {
+				alert('Поле "email" заполнено некорректно');
+				return;
+			}
+
+			this.submit();
+		});
+	})();

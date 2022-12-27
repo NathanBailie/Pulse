@@ -14,9 +14,21 @@
 		width: 30px;
 		height: 50px;
 		top: 50%;
+		left: -15%;
 		transform: translateY(-50%);
 		cursor: pointer;
-		left: -15%;
+
+		img {
+			transition: all 0.1s linear;
+
+			&:hover {
+				transform: scale(1.1);
+			}
+
+			&:active {
+				transform: scale(0.95);
+			}
+		}
 	}
 
 	&__right {
@@ -45,19 +57,22 @@
 		margin: 0 auto;
 		margin-top: 5px;
 		justify-content: space-between;
+		cursor: pointer;
 
 		span {
 			width: 30px;
-			height: 35px;
-			background: linear-gradient(45deg, rgb(229, 143, 128), rgb(201, 52, 52));
-			border-radius: 50%;
+			height: 30px;
+			transform: skew(-17deg);
+			background: linear-gradient(45deg, rgb(125, 46, 190), rgb(88, 14, 173));
+			border-radius: 5px;
 
 			&:hover {
-				background: linear-gradient(45deg, rgb(229, 143, 128), tomato);
+				background: linear-gradient(45deg, rgb(150, 69, 216), rgb(114, 33, 206));
 			}
 
 			&:active {
-				background: linear-gradient(45deg, rgb(229, 143, 128), tomato);
+				background: linear-gradient(45deg, rgb(101, 69, 189), rgb(78, 14, 150));
+
 			}
 
 			&.slider__active {

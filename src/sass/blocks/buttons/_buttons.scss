@@ -13,6 +13,8 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	cursor: pointer;
+	user-select: none;
 
 	&:hover {
 		transform: scale(1.05);
