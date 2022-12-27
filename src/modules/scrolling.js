@@ -14,7 +14,7 @@
 
 		window.addEventListener('scroll', function () {
 			if (document.documentElement.scrollTop > clientHeight) {
-				upChevron.style.display = 'block';
+				upChevron.style.display = 'flex';
 			} else {
 				upChevron.style.display = 'none';
 
