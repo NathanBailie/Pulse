@@ -1,0 +1,45 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+// 500 700 300 400
+* {
+	font-family: 'MuseoModerno', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+// Base
+@import "base/variables";
+@import "base/mixins";
+@import "base/animations";
+
+// blocks
+@import "blocks/buttons/buttons";
+@import "blocks/main/main";
+@import "blocks/advantages/advantages";
+@import "blocks/consultation/consultation";
+@import "blocks/slider/slider";
+@import "blocks/catalogue/catalogue";
+@import "blocks/comments/comments";
+@import "blocks/map/map";
+@import "blocks/modal/modal";
+@import "blocks/chevrons/chevrons";
+
+// Media
+@import "blocks/buttons/media";
+@import "blocks/main/media";
+@import "blocks/advantages/media";
+@import "blocks/consultation/media";
+@import "blocks/slider/media";
+@import "blocks/catalogue/media";
+@import "blocks/comments/media";
+@import "blocks/map/media";
+@import "blocks/modal/media";
+@import "blocks/chevrons/media";

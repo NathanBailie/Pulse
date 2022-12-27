@@ -1,0 +1,58 @@
+@keyframes heartbeats {
+	0% {
+		transform: scale(1);
+	}
+
+	25% {
+		transform: scale(1.05);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	75% {
+		transform: scale(1.15);
+
+	}
+
+	100% {
+		transform: scale(1.2);
+	}
+}
+
+@keyframes slopes {
+	0% {
+		transform: rotate(30deg);
+	}
+
+	50% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(-30deg);
+	}
+}
+
+
+@keyframes roll {
+	0% {
+		top: -100%;
+	}
+
+	100% {
+		top: 50%
+	}
+}
+
+
+@keyframes vision {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

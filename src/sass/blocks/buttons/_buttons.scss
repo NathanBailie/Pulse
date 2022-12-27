@@ -1,0 +1,27 @@
+.button {
+	height: 30px;
+	background: #C70101;
+	padding: 10px 14px;
+	border-radius: 5px;
+	border: none;
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+	&:hover {
+		transform: scale(1.05);
+		box-shadow: 3px 3px 15px 2px rgb(211, 104, 104);
+	}
+
+	&:active {
+		transform: scale(0.95);
+	}
+}
