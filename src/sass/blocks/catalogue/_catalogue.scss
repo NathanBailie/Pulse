@@ -46,7 +46,6 @@
 			color: white;
 		}
 
-
 		&:hover {
 			transform: scale(1.05) skew(-20deg);
 			box-shadow: 3px 3px 12px 2px rgb(212, 132, 132);
@@ -64,8 +63,6 @@
 			}
 		}
 
-
-
 		span {
 			transform: skew(20deg);
 		}
@@ -73,8 +70,6 @@
 
 	&__cards {
 		display: none;
-		// flex-wrap: wrap;
-		// justify-content: center;
 
 		&_active {
 			display: grid;
@@ -92,11 +87,6 @@
 		border: 2px solid #E8E8E8;
 		padding: 20px 0px;
 		overflow: hidden;
-		// margin-bottom: 18px;
-
-		// &:not(:nth-child(3n)) {
-		// 	margin-right: 18px;
-		// }
 	}
 
 	&__watch {
@@ -180,7 +170,6 @@
 
 	&__watchWraper {
 		max-width: 298px;
-		// border: 1px solid red;
 		text-align: center;
 	}
 
@@ -188,8 +177,6 @@
 		max-width: 298px;
 		padding: 15px 15px 15px 30px;
 		text-align: center;
-		// border: 1px solid blue;
-
 
 		ul {
 			list-style-type: square;
