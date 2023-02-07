@@ -7,6 +7,6 @@
 			}
 			if (e.target.classList.contains('catalogue__link_back')) {
 				e.target.closest('.catalogue__wraper').style.transform = 'translateX(0)';
-			}
-		})
+			};
+		});
 	})();

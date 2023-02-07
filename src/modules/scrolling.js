@@ -9,8 +9,7 @@
 				top: 0,
 				behavior: "smooth"
 			});
-
-		})
+		});
 
 		window.addEventListener('scroll', function () {
 			if (document.documentElement.scrollTop > clientHeight) {
@@ -18,6 +17,6 @@
 			} else {
 				upChevron.style.display = 'none';
 
-			}
+			};
 		});
 	})();

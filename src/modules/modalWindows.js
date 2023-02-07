@@ -9,16 +9,15 @@ function onValidate(e, prefix) {
 	if (!/^[а-яё]|[a-z]|\s+$/.test(name.value)) {
 		alert('Поле "имя" заполнено некорректно');
 		return;
-	}
-
+	};
 	if (!/^\+?\d+$/.test(phone.value)) {
 		alert('Поле "телефон" заполнено некорректно');
 		return;
-	}
+	};
 	if (!/^[a-z\-\.]+@[a-z]+\.[a-z\-\.]+$/.test(email.value)) {
 		alert('Поле "email" заполнено некорректно');
 		return;
-	}
+	};
 
 	return true;
 };
@@ -87,6 +86,6 @@ function onValidate(e, prefix) {
 			title.textContent = 'Ваш заказ:';
 			subTitle.textContent = cardButton.closest('.catalogue__card').querySelector('h4').textContent;
 			button.textContent = 'купить';
-		})
-	}
+		});
+	};
 })();
