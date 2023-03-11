@@ -1,4 +1,4 @@
-# WordPress
+# Pulse
 
 ## Description
 This is a one page web site about Pulse company
